@@ -1,0 +1,49 @@
+@media (max-width: 426px) {
+    .promo {
+        background: url(../../img/bg1.jpg) center (center/cover) no-repeat;
+        min-height: 400px;
+        .header {
+            padding: 0 5px;
+            &__logo {
+                width: 150px;
+            }
+            &__official {
+                font-size: 8px;
+                span {
+                    font-size: 11px;
+                }
+            }
+            &__contacts {
+                align-items: center;
+            }
+            &__phone {
+                font-size: 13px;
+            }
+            button {
+                margin-top: 2px;
+                width: 125px;
+                height: 23px;
+                font-size: 10px;
+            }
+        }
+        &__wrapper {
+            margin-top: 60px;
+            align-items: center;
+            text-align: center;
+        }
+        &__header {
+            font-size: 32px;
+        }
+        &__subheader {
+            margin-top: 5px;
+            font-size: 16px;
+        }
+        &__icons {
+            width: 390px;
+            margin-top: 40px;
+        }
+        .button_main {
+            margin-top: 50px;
+        }
+    }
+}
