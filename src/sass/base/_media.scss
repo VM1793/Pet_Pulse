@@ -46,4 +46,109 @@
             margin-top: 50px;
         }
     }
+
+    .advantages {
+        &__wrapper {
+            width: 420px;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+        &__item {
+            max-width: 400px;
+            margin-top: 15px;
+            &:nth-child(2) {
+                margin-top: 20px;
+            }
+
+        }
+        &__subtitle {
+            margin-top: 20px;
+        }
+        &__descr {
+            margin-top: 15px;
+        }
+    }
+
+    .consultation {
+        padding: 60px 0 92px 0;
+        .title {
+            font-size: 30px;
+            text-align: center;
+        }
+        &__descr {
+            font-size: 19px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .feed-form {
+            margin-left: 63px;
+        }
+    }
+    .carousel {
+
+        &__inner {
+            width: 425px;
+            img {
+
+                width: 425px;
+            }    
+        }
+    }
+    .catalog {
+        &__tab {
+            width: 120px;
+            height: 40px;
+            font-size: 13px;
+            text-align: center;
+            line-height: 40px;
+        }
+        &__content {
+            margin-left: 63px;
+        }
+    }
+    .feed {
+        &__item {
+            margin-left: 5px;
+        }
+        &__img {
+            width: 140px;
+            height: 140px;
+        }
+        &__text {
+            margin-left: 38px;
+            padding-right: 16px;
+        }
+        &__subtitle {
+            font-size: 16px;
+        }
+        &__count {
+            font-size: 13px;
+        }
+        &_descr {
+            font-size: 12px;
+        }
+    }
+    .overlay {
+        width: 425px;
+        .modal {
+            width: 350px;
+            left: 45%;
+            &__descr {
+                margin-top: 12px;
+            }
+        }
+        .feed-form {
+            width: 275px;
+        }
+    }
+    .footer {
+
+        &__info {
+            width: 420px;
+            height: 225px;
+            padding: 20px 68px 20px 68px;
+        }
+    }
 }
